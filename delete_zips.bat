@@ -3,7 +3,7 @@ rem #####################################################################
 rem # delete_zips.bat
 rem # zip deletion batch file
 rem # Willster419
-rem # 2020-08-08
+rem # 2020-08-09
 rem # searches for and deletes all zip files from the repo
 rem #####################################################################
 
