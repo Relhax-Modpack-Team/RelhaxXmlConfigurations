@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <atlases>
 	<atlas>
-		<pkg>{app}\res\packages\gui.pkg</pkg>
+		<pkg>{app}\res\packages\gui-part1.pkg</pkg>
 		<directoryInArchive>gui\flash\atlases\</directoryInArchive>
 		<atlasFile>battleAtlas.dds</atlasFile>
 		<mapFile></mapFile>
