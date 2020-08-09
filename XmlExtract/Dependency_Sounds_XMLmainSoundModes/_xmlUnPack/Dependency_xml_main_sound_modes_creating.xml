@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <files>
   <file>
-    <pkg>{app}\res\packages\gui.pkg</pkg>
+    <pkg>{app}\res\packages\gui-part2.pkg</pkg>
     <directoryInArchive>gui/soundModes</directoryInArchive>
     <fileName>main_sound_modes.xml</fileName>
     <extractDirectory>{app}\res_mods\{versiondir}\gui\soundModes</extractDirectory>
+    <!-- Leaving blank implies to use the old file name -->
     <newFileName></newFileName>
   </file>
 </files>

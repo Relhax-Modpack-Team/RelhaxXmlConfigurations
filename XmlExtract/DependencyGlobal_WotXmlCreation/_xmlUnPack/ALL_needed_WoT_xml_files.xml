@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <files>
   <file>
+    <!-- Leaving pkg blank implies it's not in a package, use directoryInArchive
+         as the absolute path to the file's location -->
     <pkg></pkg>
     <directoryInArchive>{app}\res</directoryInArchive>
     <fileName>scripts_config.xml</fileName>
@@ -15,28 +17,28 @@
     <newFileName></newFileName>
   </file>
   <file>
-    <pkg>{app}\res\packages\gui.pkg</pkg>
+    <pkg>{app}\res\packages\gui-part2.pkg</pkg>
     <directoryInArchive>gui</directoryInArchive>
     <fileName>avatar_input_handler.xml</fileName>
     <extractDirectory>{app}\res_mods\{versiondir}\gui</extractDirectory>
     <newFileName></newFileName>
   </file>
   <file>
-    <pkg>{app}\res\packages\gui.pkg</pkg>
+    <pkg>{app}\res\packages\gui-part1.pkg</pkg>
     <directoryInArchive>gui</directoryInArchive>
     <fileName>gui_sounds.xml</fileName>
     <extractDirectory>{app}\res_mods\{versiondir}\gui</extractDirectory>
     <newFileName></newFileName>
   </file>
   <file>
-    <pkg>{app}\res\packages\gui.pkg</pkg>
+    <pkg>{app}\res\packages\gui-part2.pkg</pkg>
     <directoryInArchive>gui</directoryInArchive>
     <fileName>music_events.xml</fileName>
     <extractDirectory>{app}\res_mods\{versiondir}\gui</extractDirectory>
     <newFileName></newFileName>
   </file>
   <file>
-    <pkg>{app}\res\packages\gui.pkg</pkg>
+    <pkg>{app}\res\packages\gui-part2.pkg</pkg>
     <directoryInArchive>gui</directoryInArchive>
     <fileName>sound_notifications.xml</fileName>
     <extractDirectory>{app}\res_mods\{versiondir}\gui</extractDirectory>
