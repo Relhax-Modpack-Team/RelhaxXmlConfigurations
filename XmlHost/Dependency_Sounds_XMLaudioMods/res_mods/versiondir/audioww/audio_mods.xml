@@ -1,0 +1,25 @@
+<audio_mods.xml>
+
+  <loadBanks>
+    
+  </loadBanks>
+
+  <events>
+    
+  </events>
+
+  <!-- Switches -->
+  <switches>
+
+  </switches>
+
+  <!-- RTPC -->
+  <RTPCs>
+    
+  </RTPCs>
+
+  <!-- STATES -->
+  <states>
+    
+  </states>
+</audio_mods.xml>
