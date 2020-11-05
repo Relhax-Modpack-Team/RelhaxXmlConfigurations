@@ -29,48 +29,6 @@
 </patch>
 
 <!-- 32 bit  -->
-<!-- defaultPool - This is the amount of memory, in MB, given to the default pool for loading and playing sounds in RAM.
-     Set this too low, and it will cause the engine to stop working during a battle.
-     Set this too high, and the game will crash because it can’t allocate enough memory to it.
-     Budyx69 recommends the value of 36MB. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager/defaultPool[text()&lt;=36]</path>
-  <search>.*</search>
-  <replace>36</replace>
-</patch>
-
-<!-- lowEnginePool - This is the amount of memory, in MB, given to the low engine pool.
-     If this is set too low, the wwise engine will completely crash for that battle.
-     Budyx69 recommends the value of 16. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager/lowEnginePool[text()&lt;=16]</path>
-  <search>.*</search>
-  <replace>16</replace>
-</patch>
-
-<!-- streamingPool - This is the amount of memory, in MB, that the game allocates as it is streaming from disk.
-     This is not the same as the IO pool. A value too low will cause the streaming sound to stop suddenly.
-     This value should be changed when the mods being added are of high quality, or multiple sound files can be streamed at once.
-     Budyx69 recommends the value of 24. It should be noted here that we may not need to increase the value to this much,
-     as Budy has many sounds streaming from disk. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager/streamingPool[text()&lt;=24]</path>
-  <search>.*</search>
-  <replace>24</replace>
-</patch>
-
 <!-- IOPoolSize - This is the amount of memory, in MB, that the IO pool can use for caching.
      Same effects as defaultPool. Budyx69 uses a value of 8. -->
 <patch>
@@ -85,48 +43,6 @@
 <!-- /32 bit -->
 
 <!-- 64 bit -->
-<!-- defaultPool - This is the amount of memory, in MB, given to the default pool for loading and playing sounds in RAM.
-     Set this too low, and it will cause the engine to stop working during a battle.
-     Set this too high, and the game will crash because it can’t allocate enough memory to it.
-     Budyx69 recommends the value of 36MB. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager_64bit/defaultPool[text()&lt;=48]</path>
-  <search>.*</search>
-  <replace>48</replace>
-</patch>
-
-<!-- lowEnginePool - This is the amount of memory, in MB, given to the low engine pool.
-     If this is set too low, the wwise engine will completely crash for that battle.
-     Budyx69 recommends the value of 16. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager_64bit/lowEnginePool[text()&lt;=16]</path>
-  <search>.*</search>
-  <replace>16</replace>
-</patch>
-
-<!-- streamingPool - This is the amount of memory, in MB, that the game allocates as it is streaming from disk.
-     This is not the same as the IO pool. A value too low will cause the streaming sound to stop suddenly.
-     This value should be changed when the mods being added are of high quality, or multiple sound files can be streamed at once.
-     Budyx69 recommends the value of 24. It should be noted here that we may not need to increase the value to this much,
-     as Budy has many sounds streaming from disk. -->
-<patch>
-  <type>xml</type>
-  <mode>edit</mode>
-  <patchPath>app</patchPath>
-  <file>\res_mods\versiondir\engine_config.xml</file>
-  <path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager_64bit/streamingPool[text()&lt;=24]</path>
-  <search>.*</search>
-  <replace>24</replace>
-</patch>
-
 <!-- IOPoolSize - This is the amount of memory, in MB, that the IO pool can use for caching.
      Same effects as defaultPool. Budyx69 uses a value of 8. -->
 <patch>
